@@ -2,13 +2,12 @@ name: ghcr.io
 
 on:
   push:
-    # Publish `master` as Docker `latest` image.
     branches:
       - master
-
-    # Publish `v1.2.3` tags as releases.
     tags:
       - v*
+  schedule:
+    - cron: "0 0 * * *"
 
 env:
   IMAGE: ghcr.io/${{ github.repository }}
