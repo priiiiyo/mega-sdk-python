@@ -1,7 +1,7 @@
 FROM ubuntu:21.04
 
-LABEL org.opencontainers.image.source="https://github.com/missemily2022/helios-mirror-docker"
-LABEL org.opencontainers.image.description="Docker for Helios Mirror Bot"
+LABEL org.opencontainers.image.source="https://github.com/priiiiyo/mega-sdk-python"
+LABEL org.opencontainers.image.description="Docker for tg-mirror-leech-bot"
 
 ARG TARGETPLATFORM BUILDPLATFORM
 
